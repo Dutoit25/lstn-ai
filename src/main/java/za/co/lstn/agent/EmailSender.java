@@ -15,7 +15,7 @@ public class EmailSender {
         prop.put("mail.smtp.port", "25");
         prop.put("mail.smtp.ssl.trust", "sandbox.smtp.mailtrap.io");
         String username = "dutoit.appelcryn@gmail.com";
-        String password = "Pampoen17#";
+        String password = "*****";
 
         Session session = Session.getInstance(prop, new Authenticator() {
             @Override

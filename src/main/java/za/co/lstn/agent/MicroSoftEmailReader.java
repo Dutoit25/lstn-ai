@@ -32,7 +32,7 @@ public class MicroSoftEmailReader {
         String host = "outlook.office365.com"; // Microsoft Office 365 server
         String port = "993"; // Standard IMAPS port
         String username = "dutoita2025@outlook.com"; // Your email address
-        String password = "Pampoen1961#"; // Your email password (use app passwords if 2FA is enabled)
+        String password = "*****"; // Your email password (use app passwords if 2FA is enabled)
 
         // Properties for connecting to IMAP server
         Properties props = new Properties();

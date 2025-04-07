@@ -17,7 +17,7 @@ import static java.time.Duration.ofSeconds;
 @ApplicationScoped
 public class SimpelPromptTemplate implements MasterPromptTemplate{
 
-    private static final String OPENAI_API_KEY = "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";  // Replace with your actual OpenAI API key
+    private static final String OPENAI_API_KEY = "**********";  // Replace with your actual OpenAI API key
 
     public ExtractEmailContentDTO createPrompt(ExtractEmailContentDTO extractEmailContentDTO) {
         return createSentimentPrompt(extractEmailContentDTO);

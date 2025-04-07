@@ -14,7 +14,7 @@ import static dev.langchain4j.internal.Utils.getOrDefault;
 
 public class Utils {
 
-    public static final String OPENAI_API_KEY = getOrDefault(System.getenv("OPENAI_API_KEY"), "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");
+    public static final String OPENAI_API_KEY = getOrDefault(System.getenv("OPENAI_API_KEY"), "");
 
     public static void startConversationWith(Assistant assistant) {
 

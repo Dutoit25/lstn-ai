@@ -58,7 +58,7 @@ public class SizweHelpdeskService {
     private static final String REDIS_HOST = "localhost"; // Replace with your Redis host
     private static final int REDIS_PORT = 6379;
     private static final String OPENAI_API_URL = "https://api.openai.com/v1/completions";
-    private static final String OPENAI_API_KEY = "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";  // Replace with your actual OpenAI API key
+    private static final String OPENAI_API_KEY = "*";  // Replace with your actual OpenAI API key
     private static final String DOCUMENT_PATH = "data/Sizwe-Hosmed-Full-Member-Guide-Nov-2023.pdf";
     private static final int CLOUD_REDIS_PORT = 14956;
     private static final String CLOUD_REDIS_HOST = "redis-14956.c283.us-east-1-4.ec2.redns.redis-cloud.com";

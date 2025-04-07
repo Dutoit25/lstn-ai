@@ -21,9 +21,6 @@ import dev.langchain4j.store.embedding.EmbeddingStoreIngestor;
 import dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore;
 
 public class Main {
-    private static final String OPENAI_API_URL = "https://api.openai.com/v1/completions";
-    private static final String OPENAI_API_KEY = "";  // Replace with your actual OpenAI API key
-
 
     /**
      * This example demonstrates how to use low-level LangChain4j APIs to implement RAG.
